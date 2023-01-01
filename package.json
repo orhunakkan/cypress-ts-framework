@@ -1,0 +1,24 @@
+{
+  "name": "cypress-ts-framework",
+  "version": "1.0.0",
+  "description": "Cypress TypeScript Framework",
+  "main": "index.js",
+  "scripts": {
+    "runner": "cypress open --e2e --browser electron"
+  },
+  "keywords": [
+    "cypress",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Orhun Akkan",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.2.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.7.2"
+  }
+}
