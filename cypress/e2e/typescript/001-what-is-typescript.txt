@@ -1,0 +1,11 @@
+Typescript is four things:
+
+1. Programming language
+        - A language that includes all the existing Javascript snytax, plus new Typescript-scenific syntaxfor defining and using types
+2. Type checker
+        - A program that takes in a set of files written in Javascript or Typescript, develops an understanding of all the contructs (variables, functions etc.)
+          created and lets you know if it thinks anything is set up incorrectly.
+3. Compiler
+        - A program that runs the type checker, reports any issues, then outputs the equivalent Javascript code.
+4. Language service
+        - A program that uses the type checker to tell the editors such as VS Code how to provide helpful utilities to developers.
